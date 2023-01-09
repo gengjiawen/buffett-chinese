@@ -13,6 +13,7 @@ jobs:
         run: |
           mkdir dist
           gitbook epub ./ dist/investment.epub
+          gitbook epub ./ dist/investment.epub
           ebook-convert dist/investment.epub dist/investment.pdf
           ls -lh -R dist
       - name: Archive production artifacts
