@@ -1,0 +1,24 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    container: gengjiawen/gitbook
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: build books
+        run: |
+          mkdir dist
+          gitbook epub ./ dist/investment.epub
+          ebook-convert dist/investment.epub dist/investment.pdf
+          ls -lh -R dist
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist-without-markdown
+          path: |
+            dist
+            !dist/**/*.md
