@@ -17,7 +17,7 @@ jobs:
           ebook-convert dist/investment.epub dist/investment.pdf
           ls -lh -R dist
       - name: Archive production artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: books
           path: |
