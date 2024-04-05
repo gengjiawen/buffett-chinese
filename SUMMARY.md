@@ -24,5 +24,6 @@
 * [extra_2008年巴菲特接受CNBC采访全文](extra_2008年巴菲特接受CNBC采访全文.md)
 * [extra_2011年段永平学长在浙江大学的毕业演讲](extra_2011年段永平学长在浙江大学的毕业演讲.md)
 * [Extra 2013 University Of Maryland](extra_2013_University_of_Maryland.md)
+* [extra_2018段永平斯坦福大学53问](extra_2018段永平斯坦福大学53问.md)
 * [extra_段永平论快乐人生](extra_段永平论快乐人生.md)
 * [extra_父母需要知道的事](extra_父母需要知道的事.md)
