@@ -8,7 +8,7 @@ jobs:
     container: gengjiawen/gitbook:2024.05.30
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: build books
         run: |
           mkdir dist
