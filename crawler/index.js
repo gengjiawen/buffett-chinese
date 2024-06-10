@@ -80,7 +80,7 @@ async function grab() {
 
 grab()
   .then(() => {
-    return combineMarkdownFiles(' 2024年伯克希尔股东大会.md')
+    return combineMarkdownFiles('2024年伯克希尔股东大会.md')
   })
   .catch((e) => {
     console.log(e)

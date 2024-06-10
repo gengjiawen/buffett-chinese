@@ -54,8 +54,8 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
 .env
+build/
 
 
 demo/*/node_modules/
