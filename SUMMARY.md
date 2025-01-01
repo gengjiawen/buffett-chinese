@@ -22,6 +22,8 @@
 * [2022巴菲特和查理罗斯对谈](2022巴菲特和查理罗斯对谈.md)
 * [2023年伯克希尔股东大会](2023年伯克希尔股东大会.md)
 * [2024年伯克希尔股东大会](2024年伯克希尔股东大会.md)
+* [Extra 1998 Buffett Florida](extra_1998_buffett_florida.md)
+* [extra_1998年段永平对步步高所有营销人员的讲话](extra_1998年段永平对步步高所有营销人员的讲话.md)
 * [extra_2008年巴菲特接受CNBC采访全文](extra_2008年巴菲特接受CNBC采访全文.md)
 * [extra_2011年段永平学长在浙江大学的毕业演讲](extra_2011年段永平学长在浙江大学的毕业演讲.md)
 * [Extra 2013 University Of Maryland](extra_2013_University_of_Maryland.md)
