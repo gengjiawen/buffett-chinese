@@ -1,3 +1,4 @@
+require('dotenv').config()
 const glob = require('glob')
 const fs = require('fs-extra')
 const path = require('path')
@@ -50,7 +51,7 @@ async function combineMarkdownFiles(outputFile) {
 
 async function grab() {
   let url =
-    'https://xueqiu.com/v4/statuses/user_timeline.json?page=1&user_id=1173786903'
+    'https://xueqiu.com/v4/statuses/user_timeline.json?page=1&user_id=1173786903&md5__1038=7qRxuDcDnD2G0%3DYDsD7mjv%2BWAN31DiIoKx'
 
   let result = await getData(url, {
     cache: true,
@@ -68,7 +69,7 @@ async function grab() {
         url: `https://xueqiu.com${i.target}`,
       }
     })
-    .filter((i) => i.title.includes('2024年伯克希尔'))
+    .filter((i) => i.title.includes('2025年伯克希尔'))
   console.log(links)
   fs.ensureDirSync('build')
   for (const link of links) {
@@ -79,7 +80,7 @@ async function grab() {
 
 grab()
   .then(() => {
-    return combineMarkdownFiles('2024年伯克希尔股东大会.md')
+    return combineMarkdownFiles('2025年伯克希尔股东大会.md')
   })
   .catch((e) => {
     console.log(e)
