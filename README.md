@@ -10,4 +10,6 @@
 
 感谢我的精神导师: [大道无形我有型](https://xueqiu.com/u/1247347556)
 
+书籍下载(epub，pdf)：https://github.com/gengjiawen/buffett-chinese/releases
+
 源仓库地址: https://github.com/gengjiawen/buffet-chinese
